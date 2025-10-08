@@ -1,3 +1,6 @@
+/* =========================
+   General Page Styles
+   ========================= */
 body{ 
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,6 +11,9 @@ body{
 }
 
 
+/* =========================
+   Header Styles
+   ========================= */
 
 header{
     background-color: #4a90e2;
@@ -16,26 +22,30 @@ header{
     padding: 20px;
 }
 
-
+/* =========================
+   Main Content Styles
+   ========================= */
 
 main{
     padding: 20px;
 }
 
-
+/* Section headings */
 h2{
     color: #4a90e2;
     margin-top: 20px;
 }
 
-
+/* Paragraphs */
 
 p{
     font-size: 1.1em;
     margin-bottom: 15px;
 }
 
-
+/* =========================
+   Image Styling
+   ========================= */
 
 img{
     display: block;
@@ -44,14 +54,18 @@ img{
     box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
 }
 
-
+/* =========================
+   List Styling
+   ========================= */
 
 ul{
     list-style-type: square;
     padding-left: 40px;
 }
 
-
+/* =========================
+   Footer Styles
+   ========================= */
 
 footer{
     text-align: center;
