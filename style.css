@@ -1,69 +1,94 @@
-/* 
-  Styles.css
-  Author: Camron Rabalais
-  Week 4: HTML and CSS Validation
-  Description: Defines the visual style and formatting for the webpage.
-*/
-
-/* ===== Base Page Style ===== */
+/* ===============================
+   Global Styles
+================================ */
 body {
-  background: linear-gradient(120deg, #1e3c72, #2a5298);
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  line-height: 1.8;
+  background: #0b0c10;
+  color: #c5c6c7;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding: 0;
+  line-height: 1.6;
 }
 
-/* ===== Header ===== */
+/* ===============================
+   Header & Navigation
+================================ */
 header {
+  background: #1f2833;
+  color: #66fcf1;
+  padding: 1rem 0;
   text-align: center;
-  padding: 50px 20px;
-  background-color: rgba(0, 0, 0, 0.3);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
-  font-size: 3em;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
-  letter-spacing: 2px;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.subtitle {
-  color: #ffd700;
-  font-style: italic;
-  font-size: 1.2em;
+nav a {
+  color: #c5c6c7;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* ===== Main Sections ===== */
-main {
-  padding: 30px;
+nav a:hover {
+  color: #66fcf1;
 }
 
-section {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  padding: 25px;
-  margin-bottom: 25px;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+/* ===============================
+   Hero Section
+================================ */
+.hero {
+  background: linear-gradient(120deg, #1f2833, #0b0c10);
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #fff;
 }
 
-section:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  transform: scale(1.02);
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 
-/* ===== Headings ===== */
-h2 {
-  color: #00ffff;
-  text-shadow: 2px 2px #000000;
+/* ===============================
+   Featured Games
+================================ */
+.featured {
+  text-align: center;
+  padding: 2rem;
 }
 
-/* ===== Footer ===== */
+.game-card {
+  display: inline-block;
+  background: #1f2833;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(102, 252, 241, 0.3);
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.game-card h3 {
+  color: #66fcf1;
+  margin-top: 0.5rem;
+}
+
+/* ===============================
+   Footer
+================================ */
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.4);
-  font-size: 0.9em;
+  background: #1f2833;
+  color: #c5c6c7;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
 }
-
